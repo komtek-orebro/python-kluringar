@@ -18,6 +18,10 @@
 
 9. Låt användaren skriva in ett tal. Om talet är lika med eller större än 15 så skriv ut att användaren får åka moped. Om talet är lägre än 15 så skriv ut att användaren inte får åka moped.
 
-10. Skriv ut en triangel med hjälp av siffran 'X'
+10. Sten-sax-påse mot datorn
 
-x. Gissa-siffran-spel
+11. Hänga gubbe
+
+12. Dynamisk tärning
+
+13. Gissa-siffran-spel
