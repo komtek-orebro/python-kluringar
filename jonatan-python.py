@@ -85,6 +85,32 @@ while keep_going:
 
 
 #12 Dynamisk tärning
+import random
+
+low = int(input("Vad är det nedre intervallet?\n"))
+high = 0
+valid = False
+while valid == False:
+    high = int(input("Vad är det övre intervallet?\n"))
+    if low > high:
+        print("Det övre intervallet måste vara större än det lägre")
+    else:
+        valid = True
+
+keep_going = True
+while keep_going:
+    result = random.randint(low, high)
+    print(result)
+    valid_input = False
+    response = ""
+    while valid_input == False:
+        response = input("Vill du köra igen? (JA/NEJ)")
+        if response.lower() == "ja" or response.lower() == "nej":
+            valid_input = True
+        else:
+            print("Felaktig input. Du måste svara 'JA' eller 'NEJ'.")
+    if response.lower() == "nej":
+        keep_going = False
 
 
 #13 Gissa-siffran-spel
