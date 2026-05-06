@@ -13,7 +13,7 @@ Du behöver inte kunna något sedan tidigare — vi börjar från allra början 
 
 ---
 
-### Uppgift 1 — Hej världen [📄 exempel](exempel/uppgift_01.py)
+### Uppgift 1 — Hej världen [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_01.py)
 
 Skriv ett program som skriver ut ditt namn i konsolen.
 
@@ -36,7 +36,7 @@ print("Det här är text")
 
 ---
 
-### Uppgift 2 — Ta emot input [📄 exempel](exempel/uppgift_02.py)
+### Uppgift 2 — Ta emot input [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_02.py)
 
 Låt användaren skriva in sitt namn och skriv sedan ut `Hej {namn}!`.
 
@@ -62,7 +62,7 @@ print("Hej", svar)
 
 ---
 
-### Uppgift 3 — Förnamn och efternamn [📄 exempel](exempel/uppgift_03.py)
+### Uppgift 3 — Förnamn och efternamn [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_03.py)
 
 Låt användaren skriva in sitt förnamn och efternamn i två separata steg. Skriv sedan ut `Hej {förnamn} {efternamn}!`.
 
@@ -95,7 +95,7 @@ print("Hej", förnamn, efternamn)
 
 ---
 
-### Uppgift 4 — Summera två tal [📄 exempel](exempel/uppgift_04.py)
+### Uppgift 4 — Summera två tal [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_04.py)
 
 Låt användaren skriva in två tal och skriv sedan ut summan av dem.
 
@@ -120,7 +120,7 @@ tal = int(input("Skriv ett tal: "))
 
 ---
 
-### Uppgift 5 — Miniräknare [📄 exempel](exempel/uppgift_05.py)
+### Uppgift 5 — Miniräknare [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_05.py)
 
 Bygg vidare på uppgift 4. Låt användaren skriva in två tal och skriv sedan ut resultatet av **alla** fyra räknesätt: addition (`+`), subtraktion (`-`), multiplikation (`*`) och division (`/`).
 
@@ -154,7 +154,7 @@ print(f"{tal1} + {tal2} = {tal1 + tal2}")
 
 ---
 
-### Uppgift 6 — Större eller mindre [📄 exempel](exempel/uppgift_06.py)
+### Uppgift 6 — Större eller mindre [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_06.py)
 
 Låt användaren skriva in ett tal. Skriv ut om talet är **positivt**, **negativt** eller **noll**.
 
@@ -185,7 +185,7 @@ Glöm inte att det ska vara ett kolon (`:`) i slutet av varje `if`/`elif`/`else`
 
 ---
 
-### Uppgift 7 — Mopedkörkortet [📄 exempel](exempel/uppgift_07.py)
+### Uppgift 7 — Mopedkörkortet [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_07.py)
 
 Låt användaren skriva in sin ålder. Om personen är 15 år eller äldre, skriv ut att de får köra moped. Annars, skriv ut hur många år det är kvar tills de fyller 15.
 
@@ -216,7 +216,7 @@ Kom ihåg att omvandla åldern från text till heltal med `int()`.
 
 ---
 
-### Uppgift 8 — Jämnt eller udda [📄 exempel](exempel/uppgift_08.py)
+### Uppgift 8 — Jämnt eller udda [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_08.py)
 
 Låt användaren skriva in ett tal och skriv ut om det är jämnt eller udda.
 
@@ -242,7 +242,7 @@ Operatorn `%` (modulo) ger resten vid heltalsdivision. `7 % 2` ger `1` (eftersom
 
 ---
 
-### Uppgift 9 — Räkna till tio [📄 exempel](exempel/uppgift_09.py)
+### Uppgift 9 — Räkna till tio [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_09.py)
 
 Skriv ett program som skriver ut talen 1 till och med 10, ett tal per rad.
 
@@ -270,7 +270,7 @@ for i in range(1, 11):
 
 ---
 
-### Uppgift 10 — Jämna och udda tal [📄 exempel](exempel/uppgift_10.py)
+### Uppgift 10 — Jämna och udda tal [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_10.py)
 
 Skriv ut alla **jämna** tal från 1 till 20 på en rad, och alla **udda** tal från 1 till 20 på en annan rad.
 
@@ -298,7 +298,7 @@ Alternativt kan du samla talen i en `string` och skriva ut den efteråt.
 
 ---
 
-### Uppgift 11 — Summera tal [📄 exempel](exempel/uppgift_11.py)
+### Uppgift 11 — Summera tal [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_11.py)
 
 Skriv ett program som adderar alla heltal från 1 till och med 100 och skriver ut det totala resultatet.
 
@@ -324,7 +324,7 @@ print(summa)
 
 ---
 
-### Uppgift 12 — Multiplikationstabell [📄 exempel](exempel/uppgift_12.py)
+### Uppgift 12 — Multiplikationstabell [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_12.py)
 
 Låt användaren skriva in ett tal och skriv sedan ut multiplikationstabellen för det talet (1–10).
 
@@ -353,7 +353,7 @@ Använd en `for`-loop från 1 till 11 och multiplicera användarens tal med loop
 
 ---
 
-### Uppgift 13 — Tärning [📄 exempel](exempel/uppgift_13.py)
+### Uppgift 13 — Tärning [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_13.py)
 
 Skriv ett program som simulerar ett tärningskast (ett tal mellan 1 och 6). Fråga sedan användaren om de vill kasta igen, och fortsätt tills de svarar nej.
 
@@ -388,7 +388,7 @@ while fortsätt:
 
 ---
 
-### Uppgift 14 — Gissa talet [📄 exempel](exempel/uppgift_14.py)
+### Uppgift 14 — Gissa talet [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_14.py)
 
 Datorn väljer ett hemligt tal mellan 1 och 20. Användaren får gissa vilket tal det är. Efter varje gissning ska programmet säga om gissningen var för hög, för låg, eller rätt. Användaren har max 5 försök.
 
@@ -416,7 +416,7 @@ Rätt! Du klarade det på 3 försök.
 
 ---
 
-### Uppgift 15 — Sten, sax, påse [📄 exempel](exempel/uppgift_15.py)
+### Uppgift 15 — Sten, sax, påse [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/uppgift_15.py)
 
 Bygg ett sten-sax-påse-spel mot datorn! Spelaren skriver in sitt val, datorn väljer slumpmässigt, och programmet avgör vem som vinner. Håll koll på poängen och fortsätt spela tills spelaren väljer att sluta.
 

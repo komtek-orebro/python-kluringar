@@ -11,7 +11,7 @@ Välj det spår som lockar mest — eller gör båda!
 
 ---
 
-### M1 — Bygg en linje [📄 exempel](exempel/matematik/m1_linje.py)
+### M1 — Bygg en linje [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/matematik/m1_linje.py)
 
 Låt användaren skriva in ett tal `n`. Skriv ut en horisontell linje av `n` stycken `*`.
 
@@ -33,7 +33,7 @@ print("*" * n)
 
 ---
 
-### M2 — Bygg en rektangel [📄 exempel](exempel/matematik/m2_rektangel.py)
+### M2 — Bygg en rektangel [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/matematik/m2_rektangel.py)
 
 Låt användaren skriva in bredd och höjd. Skriv ut en rektangel av `*`.
 
@@ -58,7 +58,7 @@ for i in range(höjd):
 
 ---
 
-### M3 — Bygg en triangel [📄 exempel](exempel/matematik/m3_triangel.py)
+### M3 — Bygg en triangel [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/matematik/m3_triangel.py)
 
 Låt användaren skriva in ett tal `n`. Skriv ut en triangel av `*` med `n` rader, där rad 1 har en stjärna, rad 2 har två, osv.
 
@@ -80,7 +80,7 @@ I en `for`-loop med `range(1, n+1)` är loop-variabeln `i` på rad 1 lika med `1
 
 ---
 
-### M4 — Bygg en pyramid [📄 exempel](exempel/matematik/m4_pyramid.py)
+### M4 — Bygg en pyramid [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/matematik/m4_pyramid.py)
 
 Bygg vidare på triangeln — den här gången ska pyramiden vara centrerad med mellanslag på sidorna.
 
@@ -109,7 +109,7 @@ for i in range(1, n + 1):
 
 ---
 
-### M5 — Primtalscheck [📄 exempel](exempel/matematik/m5_primtal.py)
+### M5 — Primtalscheck [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/matematik/m5_primtal.py)
 
 Låt användaren skriva in ett tal och kontrollera om det är ett primtal (ett tal som bara är delbart med 1 och sig självt).
 
@@ -140,7 +140,7 @@ for i in range(2, tal):
 
 ---
 
-### M6 — Temperaturomvandlare [📄 exempel](exempel/matematik/m6_temperatur.py)
+### M6 — Temperaturomvandlare [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/matematik/m6_temperatur.py)
 
 Bygg ett program som omvandlar temperaturer. Låt användaren välja riktning (Celsius → Fahrenheit eller tvärtom) och mata in ett värde.
 
@@ -171,7 +171,7 @@ resultat = round(C * 9/5 + 32, 1)
 
 ---
 
-### M7 — Fibonacci-sekvensen [📄 exempel](exempel/matematik/m7_fibonacci.py)
+### M7 — Fibonacci-sekvensen [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/matematik/m7_fibonacci.py)
 
 Skriv ett program som genererar de första `n` talen i Fibonacci-sekvensen. Varje tal är summan av de två föregående (0, 1, 1, 2, 3, 5, 8, 13, ...).
 
@@ -204,7 +204,7 @@ for i in range(n):
 
 ---
 
-### S1 — Vänd på en mening [📄 exempel](exempel/strängar/s1_vänd.py)
+### S1 — Vänd på en mening [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/strängar/s1_vänd.py)
 
 Låt användaren skriva in ett ord eller en mening och skriv ut det baklänges.
 
@@ -227,7 +227,7 @@ baklänges = text[::-1]
 
 ---
 
-### S2 — Räkna vokaler [📄 exempel](exempel/strängar/s2_vokaler.py)
+### S2 — Räkna vokaler [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/strängar/s2_vokaler.py)
 
 Låt användaren skriva in en mening. Räkna och skriv ut hur många vokaler (a, e, i, o, u, å, ä, ö) det finns.
 
@@ -254,7 +254,7 @@ for bokstav in text.lower():
 
 ---
 
-### S3 — Palindromkontroll [📄 exempel](exempel/strängar/s3_palindrom.py)
+### S3 — Palindromkontroll [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/strängar/s3_palindrom.py)
 
 Skriv ett program som kontrollerar om ett ord är ett **palindrom** — det vill säga om det läses likadant framifrån och bakifrån (t.ex. "racecar", "level", "madam").
 
@@ -277,7 +277,7 @@ Kombinera tips från S1 — jämför ordet med sig självt baklänges. Använd `
 
 ---
 
-### S4 — Ordräknare [📄 exempel](exempel/strängar/s4_ordräknare.py)
+### S4 — Ordräknare [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/strängar/s4_ordräknare.py)
 
 Låt användaren skriva in en mening. Skriv ut hur många ord meningen innehåller, och vilket ord som är längst.
 
@@ -304,7 +304,7 @@ För att hitta det längsta ordet kan du loopa igenom listan och jämföra läng
 
 ---
 
-### S5 — Caesar-chiffer [📄 exempel](exempel/strängar/s5_caesar.py)
+### S5 — Caesar-chiffer [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/strängar/s5_caesar.py)
 
 Bygg ett enkelt krypteringsprogram! Låt användaren skriva in en mening och ett förskjutningsvärde (t.ex. 3). Flytta varje bokstav i alfabetet med det antalet steg framåt. `a` blir `d`, `b` blir `e`, osv.
 
@@ -329,7 +329,7 @@ Hoppa över tecken som inte är bokstäver (mellanslag, utropstecken osv.).
 
 ---
 
-### S6 — Textstatistik [📄 exempel](exempel/strängar/s6_statistik.py)
+### S6 — Textstatistik [📄 exempel](https://github.com/komtek-orebro/python-kluringar/blob/main/exempel/strängar/s6_statistik.py)
 
 Bygg ett program som analyserar en text som användaren skriver in och visar:
 - Antal tecken (med och utan mellanslag)
