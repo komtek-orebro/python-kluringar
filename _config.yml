@@ -1,0 +1,9 @@
+title: Python-kluringar
+description: Programmeringsövningar i Python — från grunderna till lite klurigare utmaningar
+theme: jekyll-theme-cayman
+
+include:
+  - exempel
+
+kramdown:
+  parse_block_html: true
