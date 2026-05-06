@@ -20,7 +20,7 @@ Låt användaren skriva in ett tal `n`. Skriv ut en horisontell linje av `n` sty
 ******
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Du kan multiplicera en `string` med ett tal i Python för att upprepa den:
@@ -44,7 +44,7 @@ Låt användaren skriva in bredd och höjd. Skriv ut en rektangel av `*`.
 *****
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Använd en `for`-loop som loopar `höjd` gånger, och skriv ut en rad på `bredd` stjärnor varje varv:
@@ -71,7 +71,7 @@ Låt användaren skriva in ett tal `n`. Skriv ut en triangel av `*` med `n` rade
 *****
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 I en `for`-loop med `range(1, n+1)` är loop-variabeln `i` på rad 1 lika med `1`, på rad 2 lika med `2`, osv. Skriv ut `"*" * i` varje varv.
@@ -93,7 +93,7 @@ Bygg vidare på triangeln — den här gången ska pyramiden vara centrerad med 
 *********
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 På rad `i` (börja från 1) behöver du:
@@ -123,7 +123,7 @@ Skriv ett tal: 12
 12 är inte ett primtal. (delbart med 2)
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Loopa igenom alla tal från `2` upp till (men inte inklusive) ditt tal. Om något av dem delar ditt tal jämnt (använd `%`), är det inte ett primtal. Tal som är `1` eller lägre är aldrig primtal.
@@ -158,7 +158,7 @@ Temperatur i Celsius: 100
 100°C = 212.0°F
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Använd `round()` för att avrunda resultatet till ett lagom antal decimaler:
@@ -180,7 +180,7 @@ Skriv ett program som genererar de första `n` talen i Fibonacci-sekvensen. Varj
 0 1 1 2 3 5 8 13
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Spara de två senaste talen i variabler och uppdatera dem i varje varv av loopen:
@@ -214,7 +214,7 @@ Skriv något: hejsan
 Baklänges: nasejh
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 I Python kan du vända en `string` med `slice`-notation. `text[::-1]` betyder "hela texten, baklänges":
@@ -237,7 +237,7 @@ Skriv en mening: Hej världen!
 Antal vokaler: 4
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Loopa igenom varje bokstav i texten och kontrollera om den finns i en `string` med alla vokaler. Använd `.lower()` för att hantera stora och små bokstäver lika:
@@ -268,7 +268,7 @@ Skriv ett ord: python
 'python' är inte ett palindrom.
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Kombinera tips från S1 — jämför ordet med sig självt baklänges. Använd `.lower()` så att stora och små bokstäver inte spelar roll.
@@ -288,7 +288,7 @@ Antal ord: 6
 Längsta ordet: programmera (11 bokstäver)
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Använd `.split()` för att dela upp en `string` i en `list` av ord (den delar på mellanslag automatiskt):
@@ -314,7 +314,7 @@ Skriv en mening: hej
 Krypterat: khm
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 `ord()` ger dig ett teckens sifferkod och `chr()` omvandlar tillbaka. Bokstäverna `a`–`z` har koderna 97–122. Använd `%` för att "wrappa" runt alfabetet:
@@ -347,7 +347,7 @@ Antal meningar: 3
 Vanligaste bokstaven: e (4 gånger)
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 - Antal tecken utan mellanslag: `text.replace(" ", "")` tar bort alla mellanslag.

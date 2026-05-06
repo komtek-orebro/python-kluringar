@@ -23,7 +23,7 @@ Skriv ett program som skriver ut ditt namn i konsolen.
 Förnamn Efternamn
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Använd funktionen `print()` för att skriva ut text. Text som ska skrivas ut bokstavligt omges av citattecken:
@@ -48,7 +48,7 @@ Vad heter du?
 Hej Anna!
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Funktionen `input()` pausar programmet och väntar på att användaren ska skriva något. Det användaren skriver sparas i en `variable`:
@@ -76,7 +76,7 @@ Vad är ditt efternamn?
 Hej Anna Svensson!
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Du kan kombinera flera `variables` i ett `print()`-anrop genom att separera dem med kommatecken:
@@ -107,7 +107,7 @@ Skriv ett till tal: 3
 Summan är: 8
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 `input()` ger alltid tillbaka text, inte ett tal. Prova vad som händer om du skriver `"5" + "3"` — du får `"53"`, inte `8`! Använd `int()` för att omvandla texten till ett heltal innan du räknar:
@@ -135,7 +135,7 @@ Skriv ett till tal: 4
 10 / 4 = 2.5
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Du kan blanda text och variabler i `print()` med hjälp av ett `f-string`. Skriv `f` precis före citattecknet och sätt variabelnamn inom klamrar `{}`:
@@ -165,7 +165,7 @@ Skriv ett tal: -7
 Det talet är negativt!
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Använd `if`, `elif` (else if) och `else` för att kontrollera flera villkor:
@@ -201,7 +201,7 @@ Hur gammal är du? 17
 Du får köra moped!
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 För att räkna ut hur många år det är kvar kan du subtrahera:
@@ -227,7 +227,7 @@ Skriv ett tal: 7
 7 är ett udda tal.
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Operatorn `%` (modulo) ger resten vid heltalsdivision. `7 % 2` ger `1` (eftersom 7 delat med 2 ger resten 1). Om `tal % 2 == 0` är talet jämnt, annars är det udda.
@@ -256,7 +256,7 @@ Skriv ett program som skriver ut talen 1 till och med 10, ett tal per rad.
 10
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Använd en `for`-loop med `range()`. Observera att `range(10)` ger talen 0–9, inte 1–10. Du kan antingen börja räkna från 1 med `range(1, 11)`, eller lägga till 1 på varje tal:
@@ -281,7 +281,7 @@ Jämna: 2 4 6 8 10 12 14 16 18 20
 Udda: 1 3 5 7 9 11 13 15 17 19
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Du kan använda `range()` med tre argument: start, stop och steg. `range(2, 21, 2)` ger alla jämna tal från 2 till 20.
@@ -308,7 +308,7 @@ Skriv ett program som adderar alla heltal från 1 till och med 100 och skriver u
 Summan av 1 till 100 är: 5050
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Skapa en `variable` som börjar på 0 och lägg till varje tal i loopen:
@@ -338,7 +338,7 @@ Vilket tal vill du ha tabellen för? 7
 7 * 10 = 70
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Använd en `for`-loop från 1 till 11 och multiplicera användarens tal med loop-variabeln. Använd ett `f-string` för att formatera utskriften snyggt.
@@ -367,7 +367,7 @@ Vill du kasta igen? (ja/nej): nej
 Hej då!
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 Importera modulen `random` och använd `random.randint(1, 6)` för att generera ett slumpmässigt tal. En `while`-loop med en `boolean` (`True`/`False`) är bra här:
@@ -404,7 +404,7 @@ Gissning 3/5: 13
 Rätt! Du klarade det på 3 försök.
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 - Generera det hemliga talet med `random.randint(1, 20)` **utanför** loopen.
@@ -435,7 +435,7 @@ Välj (sten/sax/påse) eller 'sluta': sluta
 Slutresultat — Du: 1, Datorn: 0
 ```
 
-<details>
+<details markdown="1">
 <summary>💡 Tips om du fastnar</summary>
 
 - Spara valen i en `list`: `val = ["sten", "sax", "påse"]` och använd `random.choice(val)` för datorns val.
